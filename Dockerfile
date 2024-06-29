@@ -11,7 +11,7 @@ COPY go.mod go.sum ./
 RUN go mod download && go mod verify
 
 # Set the command to run your application
-CMD ["go", "run", "broker.go"]
+CMD ["go", "run", "Broker.go"]
 
 
 
